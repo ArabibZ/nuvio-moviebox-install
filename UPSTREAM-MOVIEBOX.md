@@ -15,6 +15,10 @@ adapter replaces its embedded TMDB key with Nuvio's runtime key, overlaps token
 bootstrap, provides token single-flight, signs after token acquisition, suppresses
 raw upstream logs, and stops automatic host switching on HTTP 429. Signing and
 policy decoding algorithms are otherwise retained and compared to upstream in tests.
+The v0.2.0 build removes replaced legacy orchestration functions and minifies the
+bundle, retains native signing, and supports allowlisted api3/api6 selection.
+Fast may overlap original play-info with details, with language/metadata guards;
+it does not skip anonymous authentication or remove detail/dub validation.
 
 The upstream bundle includes embedded protocol signing material. The development
 repository does not track the private input or generated `providers/moviebox.js`.
