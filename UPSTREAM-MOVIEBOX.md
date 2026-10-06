@@ -1,0 +1,34 @@
+# MovieBox protocol attribution and provenance
+
+The generated MovieBox beta uses protocol/signing/policy-normalization helpers from:
+
+- **NuvioTeam** (author in the supplied manifest)
+- **D3adlyRocket / All-in-One-Nuvio** distribution
+- Revision `3f09a6ff4360498895e622877af7a32212f75038`
+- [Original provider](https://github.com/D3adlyRocket/All-in-One-Nuvio/blob/3f09a6ff4360498895e622877af7a32212f75038/providers/moviebox.js)
+- SHA256 `874dc691ce22292ffcbc7ef797000c5c2d7b26a1cc9d674503c4830ca17572d4`
+
+This is an adaptation, not an upstream release. The new TypeScript orchestration,
+request limiter, settings, matching guards and tests are maintained in this workspace.
+The pinned protocol input remains unmodified in `.vendor/moviebox.js`. The build
+adapter replaces its embedded TMDB key with Nuvio's runtime key, overlaps token
+bootstrap, provides token single-flight, signs after token acquisition, suppresses
+raw upstream logs, and stops automatic host switching on HTTP 429. Signing and
+policy decoding algorithms are otherwise retained and compared to upstream in tests.
+
+The upstream bundle includes embedded protocol signing material. The development
+repository does not track the private input or generated `providers/moviebox.js`.
+The approved install repository tracks only the generated distribution files.
+Do not print protocol contents or mistake build output for credential-free source. The input is fetched
+from the pinned public URL with hash verification; no user credentials are supplied.
+The local loopback preview intentionally serves the generated provider to the app.
+The controlled install export contains the manifest, generated provider and this
+attribution document. It includes upstream public protocol material, but excludes
+the upstream TMDB key, GitHub credentials, device tokens and local source/vendor files.
+
+No license grant is inferred from an author label or public availability. Preserve
+this provenance and check the upstream distribution terms before redistribution.
+The maintained source is published privately at
+https://github.com/ArabibZ/nuvio-moviebox. Device-install hosting is configured
+separately at https://github.com/ArabibZ/nuvio-moviebox-install (public generated
+install files, approved by the user); private source and CI artifacts require authentication.
