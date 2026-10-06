@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ArabibZ/nuvio-providers/master/assets/collection-banner.svg" alt="Nuvio Providers — native JavaScript provider collection" width="100%" />
+  <img src="https://raw.githubusercontent.com/ArabibZ/nuvio-providers/master/assets/collection-banner.svg" alt="Nuvio Providers — movie cards and playback on a phone" width="100%" />
   <p><strong>Community-maintained native providers for Nuvio.</strong><br />MovieBox is currently available. Additional providers will be listed after verification.</p>
   <p>
     <img src="https://img.shields.io/badge/Nuvio-native-637f77?style=flat-square" alt="Native Nuvio providers" />
@@ -71,8 +71,15 @@ API keys, tokens and full signed stream URLs.
 Automated checks and live API extraction are verified. Broader device and actual
 video-playback testing continue, so the provider remains a **public beta**.
 
+## Contributors
+
+| Contributor | Role |
+|:--|:--|
+| [rabib](https://github.com/ArabibZ) | Project maintainer, direction and device testing |
+| [OpenCode](https://opencode.ai) · OpenAI GPT-6.1 | AI-assisted implementation, verification and documentation |
+
 ---
 
-Made by [rabib](https://github.com/ArabibZ). Upstream authors and protocol provenance
+Upstream authors and protocol provenance
 are preserved in [ATTRIBUTION.md](https://github.com/ArabibZ/nuvio-providers/blob/master/ATTRIBUTION.md).
 This collection is maintained independently and is not an official Nuvio release.

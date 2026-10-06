@@ -1,17 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
   <title id="title">Nuvio Providers</title>
-  <desc id="desc">A clean navy banner for a native JavaScript provider collection, with a connected module icon.</desc>
-  <rect width="1200" height="300" rx="18" fill="#111c2c"/>
-  <rect x="24" y="24" width="1152" height="252" rx="10" fill="none" stroke="#43536b" stroke-opacity=".5"/>
-  <rect x="60" y="66" width="4" height="172" rx="2" fill="#74b5a2"/>
-  <text x="88" y="87" fill="#9babbe" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">NATIVE JAVASCRIPT COLLECTION</text>
-  <text x="84" y="158" fill="#f0f4fa" font-family="Arial, sans-serif" font-size="61" font-weight="700" letter-spacing="1">NUVIO PROVIDERS</text>
-  <text x="88" y="203" fill="#b7c5d6" font-family="Arial, sans-serif" font-size="20">Configurable providers. Verified contracts. Direct playback.</text>
-  <text x="88" y="243" fill="#74b5a2" font-family="monospace" font-size="14">JavaScript · CommonJS · Native execution</text>
-  <path d="M933 108H969M1053 108H1090M1011 192V222" fill="none" stroke="#58708b" stroke-width="2"/>
-  <rect x="969" y="66" width="84" height="126" rx="16" fill="#1c2e43" stroke="#74b5a2" stroke-width="2"/>
-  <text x="985" y="143" fill="#dceae6" font-family="monospace" font-size="41">{ }</text>
-  <circle cx="918" cy="108" r="15" fill="#21374b" stroke="#58708b" stroke-width="2"/>
-  <circle cx="1105" cy="108" r="15" fill="#21374b" stroke="#58708b" stroke-width="2"/>
-  <circle cx="1011" cy="236" r="14" fill="#2d514d" stroke="#74b5a2" stroke-width="2"/>
+  <desc id="desc">A phone showing media cards and a video play button beside the Nuvio Providers title.</desc>
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#264555"/><stop offset="1" stop-color="#182739"/></linearGradient>
+    <linearGradient id="poster" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b59d6d"/><stop offset="1" stop-color="#3c5663"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="18" fill="#111c2c"/>
+  <rect x="24" y="24" width="1152" height="272" rx="10" fill="none" stroke="#43536b" stroke-opacity=".5"/>
+  <rect x="60" y="72" width="4" height="174" rx="2" fill="#74b5a2"/>
+  <text x="88" y="95" fill="#9babbe" font-family="Arial, sans-serif" font-size="13" letter-spacing="3">NATIVE PROVIDER COLLECTION</text>
+  <text x="84" y="169" fill="#f0f4fa" font-family="Arial, sans-serif" font-size="57" font-weight="700">NUVIO PROVIDERS</text>
+  <text x="88" y="211" fill="#b7c5d6" font-family="Arial, sans-serif" font-size="20">Discover streams. Choose your audio. Start watching.</text>
+  <text x="88" y="250" fill="#74b5a2" font-family="Arial, sans-serif" font-size="14">Native playback · Configurable providers · Public beta</text>
+  <rect x="914" y="44" width="157" height="242" rx="24" fill="#0b121e" stroke="#7890a7" stroke-width="2"/>
+  <rect x="924" y="57" width="137" height="215" rx="15" fill="#1c2c40"/>
+  <rect x="973" y="62" width="39" height="4" rx="2" fill="#71879c"/>
+  <rect x="936" y="84" width="113" height="83" rx="8" fill="url(#screen)"/>
+  <circle cx="1028" cy="102" r="8" fill="#cbb587"/>
+  <path d="M936 156L962 119L983 145L1004 126L1049 158V167H936Z" fill="#405f65"/>
+  <circle cx="992" cy="125" r="20" fill="#f0f4fa" fill-opacity=".95"/>
+  <path d="M986 115L1003 125L986 135Z" fill="#284b46"/>
+  <rect x="936" y="180" width="31" height="51" rx="4" fill="url(#poster)"/>
+  <path d="M936 218L951 195L967 219V231H936Z" fill="#243f4c"/>
+  <rect x="977" y="180" width="31" height="51" rx="4" fill="#41676f"/>
+  <circle cx="992" cy="196" r="7" fill="#90b6a1"/>
+  <path d="M977 225L990 208L1008 224V231H977Z" fill="#243f4c"/>
+  <rect x="1018" y="180" width="31" height="51" rx="4" fill="#70574b"/>
+  <path d="M1021 227V203H1028V212H1035V196H1043V227Z" fill="#b09572"/>
+  <rect x="936" y="245" width="82" height="4" rx="2" fill="#7890a7"/>
+  <rect x="936" y="254" width="55" height="3" rx="1.5" fill="#496176"/>
+  <path d="M1090 142L1136 170L1090 198Z" fill="#74b5a2" fill-opacity=".28"/>
 </svg>
