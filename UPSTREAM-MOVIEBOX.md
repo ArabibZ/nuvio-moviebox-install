@@ -24,6 +24,13 @@ matching, original-language disambiguation and verified regional-release dates.
 Collection adds linked-subject/edition recovery, scoped signed resource fallback,
 per-call memoization and a global rate-limit dispatch stop. No film-title exceptions
 or embedded TMDB key are introduced; policy/signing algorithms remain upstream.
+v0.4.0 separates identity-evidence lookup eligibility from final matching, so
+cross-year duplicates cannot suppress verified regional-date recovery. Full-date
+evidence may narrow same-year conflicts; remaining ambiguity is still rejected.
+It adds movie-ID-validated alternative titles, corroborated duplicate-copy identity,
+complete verified audio-edition collection in Fast (no captions) and Full modes,
+an explicit focused option, and feature-runtime guards for trailer-sized resources.
+These orchestration changes do not change upstream signing or policy decoding.
 
 The upstream bundle includes embedded protocol signing material. The development
 repository does not track the private input or generated `providers/moviebox.js`.
