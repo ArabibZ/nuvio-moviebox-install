@@ -71,13 +71,6 @@ API keys, tokens and full signed stream URLs.
 Automated checks and live API extraction are verified. Broader device and actual
 video-playback testing continue, so the provider remains a **public beta**.
 
-## Contributors
-
-| Contributor | Role |
-|:--|:--|
-| [rabib](https://github.com/ArabibZ) | Project maintainer, direction and device testing |
-| [ChatGPT](https://chatgpt.com) | AI-assisted implementation, verification and documentation |
-
 ---
 
 Upstream authors and protocol provenance
