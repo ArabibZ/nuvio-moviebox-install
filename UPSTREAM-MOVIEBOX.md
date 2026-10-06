@@ -19,6 +19,11 @@ The v0.2.0 build removes replaced legacy orchestration functions and minifies th
 bundle, retains native signing, and supports allowlisted api3/api6 selection.
 Fast may overlap original play-info with details, with language/metadata guards;
 it does not skip anonymous authentication or remove detail/dub validation.
+v0.3.0 replaces blanket title-ambiguity rejection with guarded catalog-edition
+matching, original-language disambiguation and verified regional-release dates.
+Collection adds linked-subject/edition recovery, scoped signed resource fallback,
+per-call memoization and a global rate-limit dispatch stop. No film-title exceptions
+or embedded TMDB key are introduced; policy/signing algorithms remain upstream.
 
 The upstream bundle includes embedded protocol signing material. The development
 repository does not track the private input or generated `providers/moviebox.js`.
