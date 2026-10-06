@@ -71,3 +71,12 @@ required before accepting results. Optional snapshots contain source/audio IDs a
 page host/path; they never contain media URLs, signed headers or tokens. Full reuses
 already collected linked audio without another root-detail fetch. Randomized live
 samples supplement fixed correctness regressions; they are not phone benchmarks.
+
+## Beta0.8.0 additions
+
+A broader static verified identity index is distributed with the cached plugin.
+Lazy JSON decoding reads only the requested entry; no hosted resolver or per-search
+CDN lookup is introduced. A blank source language can use only the current owned
+audio label, while all previous owner/type/title/date/synopsis/runtime validation
+remains. Build-time maintenance reuses a private session, never publishing its
+authentication material. These changes preserve upstream signing/policy algorithms.

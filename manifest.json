@@ -1,6 +1,6 @@
 {
   "name": "rabib Native Providers (Device Test)",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Experimental MovieBox device-test repository; live playback has not been verified.",
   "author": "rabib",
   "scrapers": [
@@ -8,7 +8,7 @@
       "id": "moviebox-beta",
       "name": "MovieBox Beta",
       "description": "Experimental optimized MovieBox provider; playback not yet verified in Nuvio.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "author": "rabib; upstream NuvioTeam / All-in-One-Nuvio",
       "supportedTypes": [
         "movie"
