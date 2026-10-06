@@ -1,6 +1,6 @@
 {
   "name": "Nuvio Providers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Native JavaScript providers for Nuvio. MovieBox is currently a public beta.",
   "author": "rabib",
   "scrapers": [
@@ -8,10 +8,11 @@
       "id": "moviebox-beta",
       "name": "MovieBox",
       "description": "Experimental optimized MovieBox provider; playback not yet verified in Nuvio.",
-      "version": "0.8.1",
+      "version": "0.9.0",
       "author": "rabib; upstream NuvioTeam / All-in-One-Nuvio",
       "supportedTypes": [
-        "movie"
+        "movie",
+        "tv"
       ],
       "filename": "plugins/moviebox.js",
       "enabled": true,

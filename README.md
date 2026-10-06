@@ -27,10 +27,14 @@ contract has been reviewed against **Nuvio 0.5.6-beta**.
 
 | Provider | Version | Media | Status |
 |:--|:--|:--|:--|
-| **MovieBox** | 0.8.1 | Movies | Beta · configurable audio, source quality and subtitles |
+| **MovieBox** | 0.9.0 | Movies, series and anime | Beta · configurable audio, source quality and subtitles |
 
-Future providers will be listed here when implemented and checked. MovieBox does
-not currently support series. Availability and audio depend on the upstream source.
+Future providers will be listed here when implemented and checked. Anime films use
+the movie path; anime series use the TV path. Availability and audio depend on the upstream source.
+
+For series choose a season and episode in Nuvio. Only that episode is requested.
+Verified source/TMDB season-count mappings handle flattened episodes and named
+anime seasons; ambiguous layouts fail safely instead of selecting another episode.
 
 ## Choose your mode
 
@@ -57,6 +61,10 @@ TMDB requests still occur. Missing, stale or changed identities use native disco
 Index coverage is limited, authentication remains device-side, and no instant
 result time is promised.
 
+The static shortcut index currently covers movies. TV lookup and episode validation
+can take longer than an indexed movie; the movie path adds no TV lookups. Series
+metadata and the selected episode are fetched together, not season-by-season.
+
 This repository contains the install files and artwork. Development lives in the
 private [source repository](https://github.com/ArabibZ/nuvio-provider-source).
 `providers/moviebox.js` is retained as a compatibility copy; `plugins/` is the
@@ -64,7 +72,7 @@ canonical layout for the collection.
 
 ## Feedback
 
-[Open an issue](https://github.com/ArabibZ/nuvio-providers/issues) with the movie/year,
+[Open an issue](https://github.com/ArabibZ/nuvio-providers/issues) with the title/year and season/episode when relevant,
 Nuvio and provider versions, settings, and safe timing line. Please omit cookies,
 API keys, tokens and full signed stream URLs.
 

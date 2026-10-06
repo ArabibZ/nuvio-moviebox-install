@@ -82,3 +82,12 @@ CDN lookup is introduced. A blank source language can use only the current owned
 audio label, while all previous owner/type/title/date/synopsis/runtime validation
 remains. Build-time maintenance reuses a private session, never publishing its
 authentication material. These changes preserve upstream signing/policy algorithms.
+
+## Beta 0.9.0 additions
+
+TV/anime episode support adds owned series/selected-episode metadata, typed and
+season-aware matching, and count-proven native season/absolute-episode mappings.
+Only the requested episode is collected. Caption resource/episode keys follow that
+mapping; current audio, duration, explicit episode and identity guards remain.
+Movies retain their existing shortcut path. Native signing and policy decoding
+remain upstream adaptations; no episode/title-specific acceptance exceptions.
