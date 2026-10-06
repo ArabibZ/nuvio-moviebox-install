@@ -31,6 +31,13 @@ It adds movie-ID-validated alternative titles, corroborated duplicate-copy ident
 complete verified audio-edition collection in Fast (no captions) and Full modes,
 an explicit focused option, and feature-runtime guards for trailer-sized resources.
 These orchestration changes do not change upstream signing or policy decoding.
+v0.5.0 combines movie-ID-owned release dates/alternative titles into the initial
+TMDB request, reuses validated appended data, unlocks ready audio before a preload
+finishes, pipelines caption work and coordinates shared audio across verified roots.
+Full retains audio/caption coverage; Focused Fast uses public configurable primary
+and fallback languages without implicit unwanted audio. Initial combined metadata
+has a larger payload; eliminated round trips are not a universal speed guarantee.
+Native signing/policy helpers and actual request bounds remain unchanged.
 
 The upstream bundle includes embedded protocol signing material. The development
 repository does not track the private input or generated `providers/moviebox.js`.
