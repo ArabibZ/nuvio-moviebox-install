@@ -40,7 +40,8 @@ has a larger payload; eliminated round trips are not a universal speed guarantee
 Native signing/policy helpers and actual request bounds remain unchanged.
 
 The upstream bundle includes embedded protocol signing material. The development
-repository does not track the private input or generated `providers/moviebox.js`.
+repository does not track the private input or generated `plugins/moviebox.js`
+(or its legacy `providers/moviebox.js` compatibility copy).
 The approved install repository tracks only the generated distribution files.
 Do not print protocol contents or mistake build output for credential-free source. The input is fetched
 from the pinned public URL with hash verification; no user credentials are supplied.

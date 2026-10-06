@@ -76,7 +76,7 @@ video-playback testing continue, so the provider remains a **public beta**.
 | Contributor | Role |
 |:--|:--|
 | [rabib](https://github.com/ArabibZ) | Project maintainer, direction and device testing |
-| [OpenCode](https://opencode.ai) · OpenAI GPT-6.1 | AI-assisted implementation, verification and documentation |
+| [ChatGPT](https://chatgpt.com) | AI-assisted implementation, verification and documentation |
 
 ---
 
