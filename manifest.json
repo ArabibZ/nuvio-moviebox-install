@@ -1,19 +1,19 @@
 {
-  "name": "rabib Native Providers (Device Test)",
-  "version": "0.9.0",
-  "description": "Experimental MovieBox device-test repository; live playback has not been verified.",
+  "name": "Nuvio Providers",
+  "version": "1.0.0",
+  "description": "Native JavaScript providers for Nuvio. MovieBox is currently a public beta.",
   "author": "rabib",
   "scrapers": [
     {
       "id": "moviebox-beta",
-      "name": "MovieBox Beta",
+      "name": "MovieBox",
       "description": "Experimental optimized MovieBox provider; playback not yet verified in Nuvio.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "author": "rabib; upstream NuvioTeam / All-in-One-Nuvio",
       "supportedTypes": [
         "movie"
       ],
-      "filename": "providers/moviebox.js",
+      "filename": "plugins/moviebox.js",
       "enabled": true,
       "hasSettings": true,
       "contentLanguage": [

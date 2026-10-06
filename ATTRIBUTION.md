@@ -52,8 +52,8 @@ the upstream TMDB key, GitHub credentials, device tokens and local source/vendor
 No license grant is inferred from an author label or public availability. Preserve
 this provenance and check the upstream distribution terms before redistribution.
 The maintained source is published privately at
-https://github.com/ArabibZ/nuvio-moviebox. Device-install hosting is configured
-separately at https://github.com/ArabibZ/nuvio-moviebox-install (public generated
+https://github.com/ArabibZ/nuvio-provider-source. Device-install hosting is configured
+separately at https://github.com/ArabibZ/nuvio-providers (public generated
 install files, approved by the user); private source and CI artifacts require authentication.
 # Beta0.6.0 additions
 
