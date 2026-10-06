@@ -62,3 +62,12 @@ and truthful adaptive ranges, plus balanced caption scheduling. Identity metadat
 is derived from TMDB and the upstream MovieBox API, checked against fresh source
 records at use. It contains no tokens, keys, media URLs or signed playback headers.
 The existing upstream signing/policy attribution and pinned input remain applicable.
+
+## Beta0.7.0 additions
+
+Recent, feature-verified dispatch metadata lets requested play-info overlap current
+source-detail validation. Current owner/title/date/synopsis/audio/page checks remain
+required before accepting results. Optional snapshots contain source/audio IDs and
+page host/path; they never contain media URLs, signed headers or tokens. Full reuses
+already collected linked audio without another root-detail fetch. Randomized live
+samples supplement fixed correctness regressions; they are not phone benchmarks.
