@@ -56,7 +56,8 @@ The maintained source is published privately at
 https://github.com/ArabibZ/nuvio-provider-source. Device-install hosting is configured
 separately at https://github.com/ArabibZ/nuvio-providers (public generated
 install files, approved by the user); private source and CI artifacts require authentication.
-# Beta0.6.0 additions
+
+## Beta 0.6.0 additions
 
 Original local additions include validated identity hints, source-quality preference
 and truthful adaptive ranges, plus balanced caption scheduling. Identity metadata
@@ -64,7 +65,7 @@ is derived from TMDB and the upstream MovieBox API, checked against fresh source
 records at use. It contains no tokens, keys, media URLs or signed playback headers.
 The existing upstream signing/policy attribution and pinned input remain applicable.
 
-## Beta0.7.0 additions
+## Beta 0.7.0 additions
 
 Recent, feature-verified dispatch metadata lets requested play-info overlap current
 source-detail validation. Current owner/title/date/synopsis/audio/page checks remain
@@ -73,7 +74,7 @@ page host/path; they never contain media URLs, signed headers or tokens. Full re
 already collected linked audio without another root-detail fetch. Randomized live
 samples supplement fixed correctness regressions; they are not phone benchmarks.
 
-## Beta0.8.0 additions
+## Beta 0.8.0 additions
 
 A broader static verified identity index is distributed with the cached plugin.
 Lazy JSON decoding reads only the requested entry; no hosted resolver or per-search

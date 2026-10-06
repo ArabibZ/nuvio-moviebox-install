@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/ArabibZ/nuvio-providers/master/manifest.json
 
 Enable plugins if needed, then open **MovieBox** settings. Start with Fast,
 Focused audio, your preferred language and two concurrent requests. The native
-contract has been reviewed against **Nuvio0.5.6-beta**.
+contract has been reviewed against **Nuvio 0.5.6-beta**.
 
 ## The collection
 
@@ -46,8 +46,8 @@ Keep **verified shortcuts** and **Quick start** on. Older saved All-audio Fast
 settings remain All until changed to Focused.
 
 **Quality:** preferences select available sources without an extra lookup. An
-adaptive480p/720p/1080p link contains multiple advertised tracks; choose the playback
-track in the player. Selecting720p here does not force every adaptive stream to720p.
+adaptive 480p/720p/1080p link contains multiple advertised tracks; choose the playback
+track in the player. Selecting 720p here does not force every adaptive stream to 720p.
 
 ## How it runs
 
