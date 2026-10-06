@@ -55,3 +55,10 @@ The maintained source is published privately at
 https://github.com/ArabibZ/nuvio-moviebox. Device-install hosting is configured
 separately at https://github.com/ArabibZ/nuvio-moviebox-install (public generated
 install files, approved by the user); private source and CI artifacts require authentication.
+# Beta0.6.0 additions
+
+Original local additions include validated identity hints, source-quality preference
+and truthful adaptive ranges, plus balanced caption scheduling. Identity metadata
+is derived from TMDB and the upstream MovieBox API, checked against fresh source
+records at use. It contains no tokens, keys, media URLs or signed playback headers.
+The existing upstream signing/policy attribution and pinned input remain applicable.
